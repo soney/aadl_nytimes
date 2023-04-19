@@ -2,9 +2,7 @@
 
 The [Ann Arbor District Library (AADL)](https://aadl.org/) offers free digital access to [the New York Times](https://www.nytimes.com/) for members. However, it can be a bit of a pain to access.
 
-To make it easier, you can **add this link as a browser bookmark**: <a href="javascript:(function() {
-  window.location.href = window.location.href.replace(/https:\/\/www.nytimes.com\//, "https://www-nytimes-com.research.aadl.org/");
-})();">Access through AADL</a>. You can do this by:
+To make it easier, you can **add this link as a browser bookmark**: <a href="javascript:void(window.location.href = window.location.href.replace(/https:\/\/www.nytimes.com\//, 'https://www-nytimes-com.research.aadl.org/'));">Access through AADL</a>. You can do this by:
 
 - Select and drag the link into your bookmarks bar,
 - right click the link and use the option to add a bookmark, or
