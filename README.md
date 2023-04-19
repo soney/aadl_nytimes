@@ -8,7 +8,12 @@ To make it easier, you can **add this link as a browser bookmark**: <a href="jav
 - right click the link and use the option to add a bookmark, or
 - find an option to add a bookmarklet manually, copy the code from the link above, and paste it as the URL.
 
+![An animation of a user dragging a bookmark to the bookmark bar](add_bookmarklet.gif)
+
 Then, any time you are on a New York Times page (including one that is restricted), you can click the bookmark link to access it.
+
+![An animation of a user clicking the bookmark while on a New York Times page](using_extension.gif)
+
 
 ## How does it work?
 
