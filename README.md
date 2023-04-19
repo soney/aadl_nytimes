@@ -14,16 +14,11 @@ Then, any time you are on a New York Times page (including one that is restricte
 
 ## How does it work?
 
-When you click the link, a short JavaScript snippet gets run to navigate to access that page through the AADL. The code runs the code at the end of the page, (which simply replaces the "www.nytimes.com" domain with "www-nytimes-com.research.aadl.org").
+When you click the link, a short JavaScript snippet gets run to navigate to access that page through the AADL. The code runs the code at the end of the page, (which simply replaces the "www.nytimes.com" domain with "www-nytimes-com.research.aadl.org"). More specifically, clicking the link runs the following code:
+```javascript
+window.location.href = window.location.href.replace(/https:\/\/www.nytimes.com\//, "https://www-nytimes-com.research.aadl.org/");
+```
 
 ## Credit
 
 The explanation of how to add the bookmarklet is taken from a page describing [another (very useful) bookmarklet from Michigan Libraries](https://www.lib.umich.edu/find-borrow-request/access-online-resources/remote-access/using-browser-bookmark).
-
-
-## Implementation
-
-Internally clicking the link runs the following code:
-```javascript
-window.location.href = window.location.href.replace(/https:\/\/www.nytimes.com\//, "https://www-nytimes-com.research.aadl.org/");
-```
